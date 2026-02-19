@@ -1,0 +1,91 @@
+
+    :root {
+    --primary-color: #4e73df;
+    --secondary-color: #1cc88a;
+    --recreo-bg: #f6c23e;
+    --matematicas-bg: #36b9cc;
+    --lenguaje-bg: #1cc88a;
+    --naturales-bg: #858796;
+    --sociales-bg: #e74a3b;
+    --musica-bg: #f8f9fc;
+    --artes-bg: #fd7e14;
+    --educacion-bg: #4a21d468;
+    --tecnologia-bg: #6f42c1;
+    --religion-bg: #86eec4;
+    --white-color: #fff;
+    --black-color: #000;
+    --light-gray-color: #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: var(--white-color);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 100%;
+    max-width: 1000px;
+    overflow-x: auto;
+}
+
+h1, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    min-width: 720px;
+    min-height: 480px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid var(--light-gray-color);
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+td {
+    font-weight: bold;
+}
+
+.recreo {
+    background-color: var(--recreo-bg);
+    color: var(--black-color);
+}
+
+.matematicas { background-color: var(--matematicas-bg); }
+.lenguaje { background-color: var(--lenguaje-bg); }
+.naturales { background-color: var(--naturales-bg); color: var(--white-color); }
+.sociales { background-color: var(--sociales-bg); color: var(--white-color); }
+.musica { background-color: var(--musica-bg); }
+.artes { background-color: var(--artes-bg); }
+.educacion { background-color: var(--educacion-bg); }
+.tecnologia { background-color: var(--tecnologia-bg); color: var(--white-color); }
+.religion { background-color: var(--religion-bg); }
+
+tbody tr:hover {
+    background-color: rgba(0,0,0,0.05);
+    transition: 0.2s ease;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
