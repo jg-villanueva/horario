@@ -12,6 +12,7 @@
     --educacion-bg: #4a21d468;
     --tecnologia-bg: #6f42c1;
     --religion-bg: #86eec4;
+    --hora-bg: #f0eea3;
     --white-color: #fff;
     --black-color: #000;
     --light-gray-color: #ddd;
@@ -79,6 +80,7 @@ td {
 .educacion { background-color: var(--educacion-bg); }
 .tecnologia { background-color: var(--tecnologia-bg); color: var(--white-color); }
 .religion { background-color: var(--religion-bg); }
+.hora { background-color: var(--hora-bg); }
 
 tbody tr:hover {
     background-color: rgba(0,0,0,0.05);
