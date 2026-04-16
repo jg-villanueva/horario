@@ -91,3 +91,42 @@ caption {
     margin-bottom: 10px;
     font-size: 1.2rem;
 }
+@media print {
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    background: white !important;
+    padding: 0;
+  }
+
+  .container {
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  th {
+    background-color: #4e73df !important;
+    color: white !important;
+  }
+
+  .recreo { background-color: #f6c23e !important; }
+  .matematicas { background-color: #36b9cc !important; }
+  .lenguaje { background-color: #1cc88a !important; }
+  .naturales { background-color: #858796 !important; color: white !important; }
+  .sociales { background-color: #e74a3b !important; color: white !important; }
+  .musica { background-color: #b0bfec !important; }
+  .artes { background-color: #fd7e14 !important; }
+  .educacion { background-color: #4a21d4 !important; }
+  .tecnologia { background-color: #6f42c1 !important; color: white !important; }
+  .religion { background-color: #86eec4 !important; }
+  .hora { background-color: #f0eea3 !important; }
+
+  td, th {
+    border: 1px solid black;
+  }
+
+}
